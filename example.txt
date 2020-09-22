@@ -1,0 +1,39 @@
+{
+  "begin_test": "string",
+  "limit": 0,
+  "countries": [
+    "string"
+  ],
+  "intervals": [
+    {
+      "begin": "string",
+      "end": "string"
+    }
+  ],
+}
+
+
+{
+  "countries": [
+    "string"
+  ],
+  "intervals": [
+    {
+      "begin": "string",
+      "end": "string"
+    }
+  ],
+  "reason_ids": [
+    0
+  ],
+  "regions": [
+    0
+  ],
+  "type": "string"
+}
+
+type user struct {
+	UserID    int    `db:"user_id" json:"user_id"`
+	Name      string `db:"name" json:"name"`
+	IsDeleted bool   `db:"is_deleted" json:"is_deleted"`
+}
