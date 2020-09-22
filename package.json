@@ -1,0 +1,22 @@
+{
+  "name": "dto-generator-ts",
+  "version": "1.0.0",
+  "description": "generator dto ts",
+  "main": "dto.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PuryginKE/dtoGenerator.git"
+  },
+  "author": "Purygin.KE",
+  "license": "ISC",
+  "files": [
+    "dto.js"
+  ],
+  "bugs": {
+    "url": "https://github.com/PuryginKE/dtoGenerator/issues"
+  },
+  "homepage": "https://github.com/PuryginKE/dtoGenerator#readme"
+}
