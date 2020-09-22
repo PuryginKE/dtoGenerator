@@ -15,6 +15,9 @@
   "files": [
     "dto.js"
   ],
+  "bin": {
+    "dto-generator-ts": "dto.js"
+  },
   "bugs": {
     "url": "https://github.com/PuryginKE/dtoGenerator/issues"
   },
