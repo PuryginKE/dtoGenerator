@@ -45,8 +45,9 @@ function fileHandler() {
 
 function createOutputFile() {
   fileHandler();
-  nameModel = nameModel.replace(/[_-]+[A-z]/g, (x) => { return x.toUpperCase(); });
-  nameModel = nameModel.replace(/[A-z]/, (x) => { return x.toUpperCase(); }).replace(/[_-]/g, "");
+  nameModel = nameModel.replace(/[_-]+[A-z]/g, (x) => { return x.toUpperCase(); })
+    .replace(/[A-z]/, (x) => { return x.toUpperCase(); })
+    .replace(/[_-]/g, "");
 
   createDto(input, nameModel);
 }
