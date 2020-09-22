@@ -1,6 +1,6 @@
 {
   "name": "dto-generator-ts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "generator dto ts",
   "main": "dto.js",
   "scripts": {
