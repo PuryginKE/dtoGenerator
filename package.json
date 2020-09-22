@@ -1,11 +1,10 @@
 {
   "name": "dto-generator-ts",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "generator dto ts",
   "main": "dto.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dto": "node dto.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
