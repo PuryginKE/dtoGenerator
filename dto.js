@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const { error } = require('console');
 const readline = require('readline');
 const fs = require('fs');
